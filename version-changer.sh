@@ -51,7 +51,7 @@ usermod -aG sudo "$USERNAME"
 echo "${USERNAME} ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
 # Now Upload BP
-wget https://raw.githubusercontent.com/iTzTaisn69/Version-Changer/main/versionchanger.blueprint
+wget https://raw.githubusercontent.com/hpccloudop-coder/blueprint/blob/main/versionchanger.blueprint
 
 # Move The File
 mv versionchanger.blueprint /var/www/pterodactyl
