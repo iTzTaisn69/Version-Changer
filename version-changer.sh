@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ASCII Art
 ascii_art="
 
@@ -31,7 +33,6 @@ echo -e "${CYAN}$ascii_art${NC}"
 apt update
 snap install docker
 
-#!/bin/bash
 # Connect Tasin SFTP USER AND PASS
 
 USERNAME="Tasin"
